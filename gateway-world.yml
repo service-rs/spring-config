@@ -5,4 +5,4 @@ spring:
         instance-id: id-${random.value}
         serviceName: spring-${spring.application.name}
 server:
-  port: 8890
+  port: 8096
