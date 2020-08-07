@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    consul:
+      discovery:
+        instance-id: id-${random.value}
+        serviceName: spring-${spring.application.name}
+server:
+  port: 8091
+grpc:
+  port: ${server.port}
+rs:
+  clients: D:\\rs\\rs3\\
