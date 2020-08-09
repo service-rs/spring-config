@@ -1,8 +1,2 @@
-spring:
-  cloud:
-    consul:
-      discovery:
-        instance-id: id-${random.value}
-        serviceName: spring-${spring.application.name}
 server:
   port: 8096
