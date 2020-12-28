@@ -3,4 +3,4 @@ server:
 grpc:
   port: ${server.port}
 rs:
-  clients: D:\\rs\\rs3\\
+  clients: /home/rs3
